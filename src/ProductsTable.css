@@ -1,0 +1,49 @@
+/* ProductsTable.css */
+
+.container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    background-color: rgb(188, 225, 194);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .search-input {
+    margin-bottom: 20px;
+    width: 330px;
+    margin-right: 10px;
+    margin-left: 10px;
+    background-color: white;
+    border-radius: 5px solid black;
+  }
+  
+  .table-container {
+    margin-bottom: 20px;
+    margin-top: 15px;
+    border: 1.5px solid black;
+    background-color: antiquewhite;
+    
+  }
+  
+  .pagination {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .pagination .MuiPaginationItem-root {
+    font-size: 16px;
+  }
+  
+  .pagination .Mui-selected {
+    background-color: #1976d2;
+    color: white;
+  }
+  
+  .error {
+    color: red;
+    margin-top: 10px;
+  }
+  
